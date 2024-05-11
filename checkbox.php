@@ -34,16 +34,6 @@
 <input type="submit" value="Result" />  
 <input type="submit" value="Refresh" />  
 
-
-
-
-
-
-        
-
-
-
-
     </form>
 </body>
 </html>
@@ -53,44 +43,26 @@
 $x=$_POST['x'];
 $y=$_POST['y'];
 
-if(isset($_POST['add'])){
-    $result=$x+$y;
+ if(isset($_POST['add'])){
+    $result= $x + $y;
     echo $result;
 }
 
-if(isset($_POST['sub'])){
+ if(isset($_POST['sub'])){
     
     $result=$x-$y;
     echo $result;
 }
 
-if(isset($_POST['multi'])){
+ if(isset($_POST['multi'])){
     $result= $x*$y;
     echo $result;
 }
 
-if(isset($_POST['div'])){
+ if(isset($_POST['div'])){
 
     $result= $x / $y;
     echo $result;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
