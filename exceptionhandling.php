@@ -24,12 +24,17 @@ $y=$_POST['y'];
 
 try{
     checknum($y);
-    echo"NUMBER LESS THAN 0";
+    echo"Number should be less than 0";
 }
 catch(Exception $e ){
-
-
-    
+ echo "Message:".$e -> getMessage();
 }
 
+function checknum($y){
+     if($y < 0 ){
+        throw new Exception("Value must be greater  than 0");
+     
+     }
+     return true;
+}
 ?>
