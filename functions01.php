@@ -43,7 +43,7 @@ if(isset($_POST['submit'])){
 //     }
 //square and sum of a number
 function square($num1,$num2){
-    $result=$num1 ** 2 + $num2 ** 2;
+    $result= $num1 ** 2 + $num2 ** 2;
     echo $result;
 }
 

@@ -2,6 +2,7 @@
 
 <?php 
 $foods= array("pizza","burger","omlete");
+sort(array,$foods);
 $foods[0]="veg pizza";
 array_push($foods,"apple");
 array_pop($foods);
