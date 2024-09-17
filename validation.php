@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="./validation.php" method="post">
-        <label for="">Username</label>
+        <label for="">Name</label>
         <input type="text" name="username" placeholder="Enter the name:"><br><br>
 
     <input type="submit" value="submit" name="submit">
