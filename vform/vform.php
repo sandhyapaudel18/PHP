@@ -16,7 +16,7 @@
 
       <label for="">Email</label>
       <input type="text" name="email" id="email" />
-      <span><?php echo $email_error?></span>
+      <span><?php echo $email_error ?></span>
 
       <br />
       <br />
