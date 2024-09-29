@@ -6,10 +6,10 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="./vvform.php" method="POST" enctype="multipart/form-data">
+    <form action="./insert.php" method="POST" enctype="multipart/form-data">
       <label for="">Name</label>
       <input type="text " name="name" id="name" />
-      <span><?php echo $name_error ?> </span>
+      <span><?php echo $name_error?> </span>
 
       <br />
       <br />
